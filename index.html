@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Krish Pratap Singh, Computer Science Student and Aspiring Software Developer">
+    <meta name="keywords" content="Krish Pratap Singh, Computer Science, Software Developer, Web Development, Portfolio">
+    <meta name="author" content="Krish Pratap Singh">
+    <title>Krish Pratap Singh | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">Krish<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle" aria-label="Toggle Dark/Light Mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger" aria-label="Toggle Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <canvas id="particles-canvas"></canvas>
+        <div class="container hero-content">
+            <h1 class="fade-in">Krish Pratap Singh</h1>
+            <h2 class="typing-text fade-in">I am a <span id="typing"></span></h2>
+            <p class="fade-in">Passionate Computer Science student with a strong interest in software development, web technologies, and problem-solving. Continuously learning new technologies and building projects to enhance technical skills.</p>
+            <div class="hero-buttons fade-in">
+                <a href="#resume" class="btn btn-primary"><i class="fas fa-download"></i> Download Resume</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+            <div class="social-links fade-in">
+                <a href="https://www.linkedin.com/in/krish-pratap-singh/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/krishpratapsingh" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a href="/cdn-cgi/l/email-protection#78130a110b100b11161f10484c484d49381f15191114561b1715" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image fade-in">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+                <div class="about-text fade-in">
+                    <p>I am Krish Pratap Singh, a Computer Science student passionate about technology, programming, and software development. I enjoy learning new concepts, building projects, and solving real-world problems through technology. My goal is to gain industry experience through internships and contribute to impactful projects.</p>
+                    <div class="info-cards">
+                        <div class="info-card">
+                            <i class="fas fa-user-graduate"></i>
+                            <div>
+                                <h4>Name</h4>
+                                <p>Krish Pratap Singh</p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <i class="fas fa-laptop-code"></i>
+                            <div>
+                                <h4>Field</h4>
+                                <p>Computer Science</p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <i class="fas fa-briefcase"></i>
+                            <div>
+                                <h4>Role</h4>
+                                <p>Student & Aspiring Software Developer</p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>India</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item fade-in">
+                    <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="timeline-content">
+                        <h3>Bachelor of Computer Applications (BCA)</h3>
+                        <span class="timeline-date">Expected 2027</span>
+                        <p><strong>Program:</strong> Computer Applications</p>
+                        <p><strong>University:</strong> Veer Bahadur Singh Purvanchal University</p>
+                        <p><strong>Year:</strong> 2027</p>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-icon"><i class="fas fa-school"></i></div>
+                    <div class="timeline-content">
+                        <h3>Higher Secondary Education (Class 12)</h3>
+                        <span class="timeline-date">2024</span>
+                        <p><strong>School:</strong> Nehru Balodyan Senior Secondary School</p>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-icon"><i class="fas fa-book"></i></div>
+                    <div class="timeline-content">
+                        <h3>Secondary Education (Class 10)</h3>
+                        <span class="timeline-date">2022</span>
+                        <p><strong>School:</strong> Nehru Balodyan Senior Secondary School</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category fade-in">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skill-cards">
+                        <div class="skill-card">C</div>
+                        <div class="skill-card">C++</div>
+                        <div class="skill-card">Java</div>
+                        <div class="skill-card">HTML</div>
+                        <div class="skill-card">CSS</div>
+                        <div class="skill-card">JavaScript</div>
+                    </div>
+                </div>
+                <div class="skill-category fade-in">
+                    <h3><i class="fas fa-brain"></i> Core Subjects</h3>
+                    <div class="skill-cards">
+                        <div class="skill-card">Data Structures & Algorithms</div>
+                        <div class="skill-card">Object-Oriented Programming</div>
+                        <div class="skill-card">Database Management Systems</div>
+                        <div class="skill-card">Operating Systems</div>
+                    </div>
+                </div>
+                <div class="skill-category fade-in">
+                    <h3><i class="fas fa-tools"></i> Tools</h3>
+                    <div class="skill-cards">
+                        <div class="skill-card">VS Code</div>
+                        <div class="skill-card">Git</div>
+                        <div class="skill-card">GitHub</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="project-filters fade-in">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Dev</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card fade-in" data-category="web">
+                    <div class="project-image">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Personal Portfolio Website</h3>
+                        <p>Responsive portfolio website built using HTML, CSS, and JavaScript.</p>
+                        <div class="project-tech">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-sm"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="btn-sm btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="section">
+        <div class="container">
+            <h2 class="section-title">Resume</h2>
+            <div class="resume-card glass fade-in">
+                <i class="fas fa-file-word resume-icon" style="color: #2b579a;"></i>
+                <h3>Krish Pratap Singh - Resume</h3>
+                <p>Download my resume to learn more about my education, technical skills, and project experience.</p>
+                <a href="Krish_Pratap_Singh_Resume_3.docx" class="btn btn-primary" download><i class="fas fa-download"></i> Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Internship Goals Section -->
+    <section id="goals" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title">Career Objective</h2>
+            <div class="goals-content glass fade-in">
+                <i class="fas fa-bullseye goals-icon"></i>
+                <p>Seeking internship opportunities in Software Development, Web Development, and related technology domains where I can apply my technical knowledge, learn from industry professionals, and contribute to innovative projects.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info fade-in">
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p><a href="tel:+917309543874">+91 7309543874</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="/cdn-cgi/l/email-protection#88e3fae1fbe0fbe1e6efe0b8bcb8bdb9c8efe5e9e1e4a6ebe7e5"><span class="__cf_email__" data-cfemail="5e352c372d362d373039366e6a6e6b6f1e39333f3732703d3133">[email&#160;protected]</span></a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <p><a href="https://www.linkedin.com/in/krish-pratap-singh/" target="_blank" rel="noopener noreferrer">linkedin.com/in/krish-pratap-singh</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h4>GitHub</h4>
+                            <p><a href="https://github.com/krishpratapsingh" target="_blank" rel="noopener noreferrer">github.com/krishpratapsingh</a></p>
+                        </div>
+                    </div>
+                </div>
+                <form id="contact-form" class="contact-form glass fade-in">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required placeholder=" ">
+                        <label for="name">Full Name</label>
+                        <span class="error-msg">Name is required</span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder=" ">
+                        <label for="email">Email Address</label>
+                        <span class="error-msg">Valid email is required</span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" required placeholder=" ">
+                        <label for="subject">Subject</label>
+                        <span class="error-msg">Subject is required</span>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required placeholder=" "></textarea>
+                        <label for="message">Message</label>
+                        <span class="error-msg">Message is required</span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>Krish Pratap Singh &copy; 2026</p>
+                <p>Designed and Developed by Krish Pratap Singh</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/krish-pratap-singh/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/krishpratapsingh" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                    <a href="/cdn-cgi/l/email-protection#6c071e051f041f05020b045c585c595d2c0b010d0500420f0301" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top -->
+    <button id="scroll-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="script.js"></script>
+</body>
+</html>
